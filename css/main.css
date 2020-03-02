@@ -169,6 +169,9 @@ body {
 }
 body {
   background: url("./../../../background/bg-8.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: contain;
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
@@ -1162,7 +1165,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8bff82;
+  background: #ffc999;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
